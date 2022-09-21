@@ -6,8 +6,9 @@ body {
 }
 
 h1 {
-  line-height: 2;
+  line-height: ;
   margin-top: 0;
+  font-weight: 700;
   font-size: 5.625rem;
   font-family: "Sacramento", cursive;
   color: #66bfbf;
@@ -16,6 +17,7 @@ h2 {
   margin: 50px auto 0 auto;
   font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   color: #66bfbf;
   padding-bottom: 10px;
 }
@@ -68,6 +70,9 @@ a:hover {
   position: relative;
   padding-top: 100px;
 }
+.mountain {
+  padding: 0 15%;
+}
 
 .middle-container {
   margin: 100px 0;
@@ -88,31 +93,21 @@ a:hover {
   margin: 150px auto 100px auto;
 }
 
-.top-cloud {
-  position: absolute;
-  top: 50px;
-  right: 300px;
-}
-
 .profile-img {
-  width: 15%;
-}
-
-.bottom-cloud {
-  position: absolute;
-  bottom: 300px;
-  left: 300px;
+  width: 7rem;
 }
 
 .code-gif {
   border-radius: 50%;
   margin-right: 30px;
-  width: 20%;
+  padding-bottom: 20px;
+  width: 9rem;
   float: left;
 }
 
 .gamepad {
-  width: 20%;
+  width: 9rem;
+  padding-bottom: 20px;
   margin-left: 30px;
   float: right;
 }
